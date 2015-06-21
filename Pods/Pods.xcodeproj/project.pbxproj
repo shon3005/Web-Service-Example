@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EC777CBD22F83E6830793FE /* Pods-Web Service Example-LTMorphingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAE3827A659989620F4E465 /* Pods-Web Service Example-LTMorphingLabel-dummy.m */; };
+		1727E9E896AFD5FCC2D9DB75 /* LTCharacterLimbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6D1589F2A7A0C7C2C91324 /* LTCharacterLimbo.swift */; };
+		2FC91AE18F8A14286B74FDB8 /* LTMorphingLabel+Fall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFB23662BC531ED61283E0E /* LTMorphingLabel+Fall.swift */; };
+		3614238F70F71832FE0303E1 /* Fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 14C759C9E86E52BA0599104F /* Fire.png */; };
+		392598C4893CAC1FB5DA7DEA /* LTMorphingLabel+Sparkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B61F832B670F8F0A934C558 /* LTMorphingLabel+Sparkle.swift */; };
+		3D54C5F54D91B0079422C88A /* NSString+LTMorphingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639F29BDEE414741B94E1A61 /* NSString+LTMorphingLabel.swift */; };
+		414FDE3A226E1CAF8C762CA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C63A5D78E765ED0525E29F7 /* UIKit.framework */; };
+		4F622E137CEED3A6F00812BB /* LTMorphingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 37D09AA9FA5187B241D8D4FB /* LTMorphingLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		510D98EACADF2F1F98809E5A /* Pods-Web Service Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C71B76B5B7D81703537BB098 /* Pods-Web Service Example-dummy.m */; };
+		62C913A738A1A06F230EE131 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC5493BE68FF5F9CB36A8AC /* QuartzCore.framework */; };
+		631E476425D430B13F92AB98 /* LTMorphingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5365E6DECAE0D86A233531 /* LTMorphingLabel.swift */; };
+		8219A7BC992D0378B58F4447 /* LTMorphingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318911F4145560778F3EA091 /* LTMorphingEffect.swift */; };
+		897225FC07CBCEC2D2B7AAD3 /* Pods-Web Service Example-LTMorphingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D66462593E5C075CEB478256 /* Pods-Web Service Example-LTMorphingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A3FEBAEA0306EA9F15F6F39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3666A7ED564BA8028705BBB /* Foundation.framework */; };
+		9D3514FD622B34042C5518E8 /* LTEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1777D8462E725C8336DF69B3 /* LTEasing.swift */; };
+		9DC281B97DDD376BCB72B716 /* LTMorphingLabel+Burn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2141D191D7C7F1EA4C7C604C /* LTMorphingLabel+Burn.swift */; };
+		A932E135B39CA3774E90439D /* Pods-Web Service Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78957F41F69BB363B84600EA /* Pods-Web Service Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A94BB8B39A62DFCAB9CEE139 /* Fragment.png in Resources */ = {isa = PBXBuildFile; fileRef = DF07A2DCFD459228D807A7C4 /* Fragment.png */; };
+		B239FD362324D53015895207 /* Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = 24668DE5053B7FED5F37BBCD /* Sparkle.png */; };
+		B80FC48DF72C5A4042A88DD9 /* LTMorphingLabel+Evaporate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697BC81C148CD5883A90487D /* LTMorphingLabel+Evaporate.swift */; };
+		DB195D9965A63F3CD4538380 /* LTEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793931698550B513BE21D2D8 /* LTEmitterView.swift */; };
+		E3CCF0520D95316FDE3725B8 /* LTMorphingLabel+Pixelate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95533BDF6764064CD627A056 /* LTMorphingLabel+Pixelate.swift */; };
+		E9A52660877F34C6D84C8F83 /* Smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A2DE3B28C8101BBFAAA0E4 /* Smoke.png */; };
+		F4AA645839A00ABAAD3AE76E /* LTMorphingLabel+Anvil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0090E5110F43FE4064856BC /* LTMorphingLabel+Anvil.swift */; };
+		F89D126E85C417D53BCCAAFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3666A7ED564BA8028705BBB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26A0FCC9FA59B0191C3CA736 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1CEAF570858F076B64EB905 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C50E76255984B52D8D6083F6;
+			remoteInfo = "Pods-Web Service Example-LTMorphingLabel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CC5493BE68FF5F9CB36A8AC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		0E28634A422E9F65DAA87CCC /* LTMorphingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LTMorphingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F28334032B45B238BF9AED6 /* Pods-Web Service Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Web Service Example.release.xcconfig"; sourceTree = "<group>"; };
+		10E1A6A80054A054001772F9 /* Pods-Web Service Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Web Service Example-frameworks.sh"; sourceTree = "<group>"; };
+		14C759C9E86E52BA0599104F /* Fire.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Fire.png; path = LTMorphingLabel/Particles/Fire.png; sourceTree = "<group>"; };
+		1777D8462E725C8336DF69B3 /* LTEasing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTEasing.swift; path = LTMorphingLabel/LTEasing.swift; sourceTree = "<group>"; };
+		1C63A5D78E765ED0525E29F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2141D191D7C7F1EA4C7C604C /* LTMorphingLabel+Burn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Burn.swift"; path = "LTMorphingLabel/LTMorphingLabel+Burn.swift"; sourceTree = "<group>"; };
+		228DBD06406953855FD4FBBB /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		24668DE5053B7FED5F37BBCD /* Sparkle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Sparkle.png; path = LTMorphingLabel/Particles/Sparkle.png; sourceTree = "<group>"; };
+		2A580DB84702B4C0B2985E8F /* Pods-Web Service Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Web Service Example.modulemap"; sourceTree = "<group>"; };
+		318911F4145560778F3EA091 /* LTMorphingEffect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTMorphingEffect.swift; path = LTMorphingLabel/LTMorphingEffect.swift; sourceTree = "<group>"; };
+		365DB2AB9A7AB4D7B2D77C4F /* Pods-Web Service Example-LTMorphingLabel-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Web Service Example-LTMorphingLabel-Private.xcconfig"; sourceTree = "<group>"; };
+		37D09AA9FA5187B241D8D4FB /* LTMorphingLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMorphingLabel.h; path = LTMorphingLabel/LTMorphingLabel.h; sourceTree = "<group>"; };
+		3AD380444A2149834379C778 /* Pods-Web Service Example-LTMorphingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Web Service Example-LTMorphingLabel-prefix.pch"; sourceTree = "<group>"; };
+		4EFB23662BC531ED61283E0E /* LTMorphingLabel+Fall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Fall.swift"; path = "LTMorphingLabel/LTMorphingLabel+Fall.swift"; sourceTree = "<group>"; };
+		639F29BDEE414741B94E1A61 /* NSString+LTMorphingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSString+LTMorphingLabel.swift"; path = "LTMorphingLabel/NSString+LTMorphingLabel.swift"; sourceTree = "<group>"; };
+		697BC81C148CD5883A90487D /* LTMorphingLabel+Evaporate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Evaporate.swift"; path = "LTMorphingLabel/LTMorphingLabel+Evaporate.swift"; sourceTree = "<group>"; };
+		6B61F832B670F8F0A934C558 /* LTMorphingLabel+Sparkle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Sparkle.swift"; path = "LTMorphingLabel/LTMorphingLabel+Sparkle.swift"; sourceTree = "<group>"; };
+		6CAE3827A659989620F4E465 /* Pods-Web Service Example-LTMorphingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Web Service Example-LTMorphingLabel-dummy.m"; sourceTree = "<group>"; };
+		760B0E753ED7BE6E25CC26AA /* Pods-Web Service Example-LTMorphingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Web Service Example-LTMorphingLabel.modulemap"; sourceTree = "<group>"; };
+		76B9954C3FC4D6FE1232AA20 /* Pods-Web Service Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Web Service Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		78957F41F69BB363B84600EA /* Pods-Web Service Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Web Service Example-umbrella.h"; sourceTree = "<group>"; };
+		793931698550B513BE21D2D8 /* LTEmitterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTEmitterView.swift; path = LTMorphingLabel/LTEmitterView.swift; sourceTree = "<group>"; };
+		7952F404E4C74B563FFAE207 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8992416254C9F446346EE4CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E6D1589F2A7A0C7C2C91324 /* LTCharacterLimbo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTCharacterLimbo.swift; path = LTMorphingLabel/LTCharacterLimbo.swift; sourceTree = "<group>"; };
+		95533BDF6764064CD627A056 /* LTMorphingLabel+Pixelate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Pixelate.swift"; path = "LTMorphingLabel/LTMorphingLabel+Pixelate.swift"; sourceTree = "<group>"; };
+		9A5365E6DECAE0D86A233531 /* LTMorphingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTMorphingLabel.swift; path = LTMorphingLabel/LTMorphingLabel.swift; sourceTree = "<group>"; };
+		A3594956D26EE7BD807F81D7 /* Pods_Web_Service_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Web_Service_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FCDFF0EF30A23CB346C4B6 /* Pods-Web Service Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Web Service Example-environment.h"; sourceTree = "<group>"; };
+		B19CE81A96F2B1CBAFE97CC3 /* Pods-Web Service Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Web Service Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BD4EDD5A67FE8BA7FA985BB1 /* Pods-Web Service Example-LTMorphingLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Web Service Example-LTMorphingLabel.xcconfig"; sourceTree = "<group>"; };
+		C71B76B5B7D81703537BB098 /* Pods-Web Service Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Web Service Example-dummy.m"; sourceTree = "<group>"; };
+		D66462593E5C075CEB478256 /* Pods-Web Service Example-LTMorphingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Web Service Example-LTMorphingLabel-umbrella.h"; sourceTree = "<group>"; };
+		DF07A2DCFD459228D807A7C4 /* Fragment.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Fragment.png; path = LTMorphingLabel/Particles/Fragment.png; sourceTree = "<group>"; };
+		E3666A7ED564BA8028705BBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EB163825648EB61D10D8BB0D /* Pods-Web Service Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Web Service Example-resources.sh"; sourceTree = "<group>"; };
+		F0090E5110F43FE4064856BC /* LTMorphingLabel+Anvil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Anvil.swift"; path = "LTMorphingLabel/LTMorphingLabel+Anvil.swift"; sourceTree = "<group>"; };
+		F0BA1D68063CB06277E186AD /* Pods-Web Service Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Web Service Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F4A2DE3B28C8101BBFAAA0E4 /* Smoke.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Smoke.png; path = LTMorphingLabel/Particles/Smoke.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1C22049C67E4C7C45122557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3FEBAEA0306EA9F15F6F39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34B68ACD4FD9A0F09CAB44A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89D126E85C417D53BCCAAFC /* Foundation.framework in Frameworks */,
+				62C913A738A1A06F230EE131 /* QuartzCore.framework in Frameworks */,
+				414FDE3A226E1CAF8C762CA9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2268804B9C2CFDE9E7E05600 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				234EBA9C595B9DA094BC0A4B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		234EBA9C595B9DA094BC0A4B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E3666A7ED564BA8028705BBB /* Foundation.framework */,
+				0CC5493BE68FF5F9CB36A8AC /* QuartzCore.framework */,
+				1C63A5D78E765ED0525E29F7 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		65C8BECC5AB6968D9FAFE543 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D044E0ED3B798B20143487D7 /* LTMorphingLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6FF9632BB28BE654F23BA08C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E28634A422E9F65DAA87CCC /* LTMorphingLabel.framework */,
+				A3594956D26EE7BD807F81D7 /* Pods_Web_Service_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		975948A21B053B3F57CED2CB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				986DAA5FB84C40173890C5B5 /* Pods-Web Service Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		986DAA5FB84C40173890C5B5 /* Pods-Web Service Example */ = {
+			isa = PBXGroup;
+			children = (
+				7952F404E4C74B563FFAE207 /* Info.plist */,
+				2A580DB84702B4C0B2985E8F /* Pods-Web Service Example.modulemap */,
+				76B9954C3FC4D6FE1232AA20 /* Pods-Web Service Example-acknowledgements.markdown */,
+				F0BA1D68063CB06277E186AD /* Pods-Web Service Example-acknowledgements.plist */,
+				C71B76B5B7D81703537BB098 /* Pods-Web Service Example-dummy.m */,
+				A9FCDFF0EF30A23CB346C4B6 /* Pods-Web Service Example-environment.h */,
+				10E1A6A80054A054001772F9 /* Pods-Web Service Example-frameworks.sh */,
+				EB163825648EB61D10D8BB0D /* Pods-Web Service Example-resources.sh */,
+				78957F41F69BB363B84600EA /* Pods-Web Service Example-umbrella.h */,
+				B19CE81A96F2B1CBAFE97CC3 /* Pods-Web Service Example.debug.xcconfig */,
+				0F28334032B45B238BF9AED6 /* Pods-Web Service Example.release.xcconfig */,
+			);
+			name = "Pods-Web Service Example";
+			path = "Target Support Files/Pods-Web Service Example";
+			sourceTree = "<group>";
+		};
+		9DB9CDB639EE2E795EB8802A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8992416254C9F446346EE4CA /* Info.plist */,
+				760B0E753ED7BE6E25CC26AA /* Pods-Web Service Example-LTMorphingLabel.modulemap */,
+				BD4EDD5A67FE8BA7FA985BB1 /* Pods-Web Service Example-LTMorphingLabel.xcconfig */,
+				365DB2AB9A7AB4D7B2D77C4F /* Pods-Web Service Example-LTMorphingLabel-Private.xcconfig */,
+				6CAE3827A659989620F4E465 /* Pods-Web Service Example-LTMorphingLabel-dummy.m */,
+				3AD380444A2149834379C778 /* Pods-Web Service Example-LTMorphingLabel-prefix.pch */,
+				D66462593E5C075CEB478256 /* Pods-Web Service Example-LTMorphingLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Web Service Example-LTMorphingLabel";
+			sourceTree = "<group>";
+		};
+		D044E0ED3B798B20143487D7 /* LTMorphingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				8E6D1589F2A7A0C7C2C91324 /* LTCharacterLimbo.swift */,
+				1777D8462E725C8336DF69B3 /* LTEasing.swift */,
+				793931698550B513BE21D2D8 /* LTEmitterView.swift */,
+				318911F4145560778F3EA091 /* LTMorphingEffect.swift */,
+				37D09AA9FA5187B241D8D4FB /* LTMorphingLabel.h */,
+				9A5365E6DECAE0D86A233531 /* LTMorphingLabel.swift */,
+				F0090E5110F43FE4064856BC /* LTMorphingLabel+Anvil.swift */,
+				2141D191D7C7F1EA4C7C604C /* LTMorphingLabel+Burn.swift */,
+				697BC81C148CD5883A90487D /* LTMorphingLabel+Evaporate.swift */,
+				4EFB23662BC531ED61283E0E /* LTMorphingLabel+Fall.swift */,
+				95533BDF6764064CD627A056 /* LTMorphingLabel+Pixelate.swift */,
+				6B61F832B670F8F0A934C558 /* LTMorphingLabel+Sparkle.swift */,
+				639F29BDEE414741B94E1A61 /* NSString+LTMorphingLabel.swift */,
+				F0B66D86390A9894B1372BF8 /* Resources */,
+				9DB9CDB639EE2E795EB8802A /* Support Files */,
+			);
+			path = LTMorphingLabel;
+			sourceTree = "<group>";
+		};
+		F0B66D86390A9894B1372BF8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				14C759C9E86E52BA0599104F /* Fire.png */,
+				DF07A2DCFD459228D807A7C4 /* Fragment.png */,
+				F4A2DE3B28C8101BBFAAA0E4 /* Smoke.png */,
+				24668DE5053B7FED5F37BBCD /* Sparkle.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F8EF9FF1F2C30920BA6808B5 = {
+			isa = PBXGroup;
+			children = (
+				228DBD06406953855FD4FBBB /* Podfile */,
+				2268804B9C2CFDE9E7E05600 /* Frameworks */,
+				65C8BECC5AB6968D9FAFE543 /* Pods */,
+				6FF9632BB28BE654F23BA08C /* Products */,
+				975948A21B053B3F57CED2CB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		425D909438B94E5C806A3464 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F622E137CEED3A6F00812BB /* LTMorphingLabel.h in Headers */,
+				897225FC07CBCEC2D2B7AAD3 /* Pods-Web Service Example-LTMorphingLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37B3BBDD4FB95F1142FF004 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A932E135B39CA3774E90439D /* Pods-Web Service Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17954913AD8DC519333B829E /* Pods-Web Service Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 278C597127D35A93B410C319 /* Build configuration list for PBXNativeTarget "Pods-Web Service Example" */;
+			buildPhases = (
+				D722C30AEA1BB448B7EF3E68 /* Sources */,
+				A1C22049C67E4C7C45122557 /* Frameworks */,
+				B37B3BBDD4FB95F1142FF004 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDC5B6F83D5FF7C063B7F71B /* PBXTargetDependency */,
+			);
+			name = "Pods-Web Service Example";
+			productName = "Pods-Web Service Example";
+			productReference = A3594956D26EE7BD807F81D7 /* Pods_Web_Service_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C50E76255984B52D8D6083F6 /* Pods-Web Service Example-LTMorphingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D6CCCA3D69279E8552C06D4 /* Build configuration list for PBXNativeTarget "Pods-Web Service Example-LTMorphingLabel" */;
+			buildPhases = (
+				BD130256C90815246A69FBBA /* Sources */,
+				C34B68ACD4FD9A0F09CAB44A /* Frameworks */,
+				425D909438B94E5C806A3464 /* Headers */,
+				CAFF6E82D2F63A2E3B892EF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Web Service Example-LTMorphingLabel";
+			productName = "Pods-Web Service Example-LTMorphingLabel";
+			productReference = 0E28634A422E9F65DAA87CCC /* LTMorphingLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1CEAF570858F076B64EB905 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 9BCFECBB61FD9875FAD6B427 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8EF9FF1F2C30920BA6808B5;
+			productRefGroup = 6FF9632BB28BE654F23BA08C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17954913AD8DC519333B829E /* Pods-Web Service Example */,
+				C50E76255984B52D8D6083F6 /* Pods-Web Service Example-LTMorphingLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAFF6E82D2F63A2E3B892EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3614238F70F71832FE0303E1 /* Fire.png in Resources */,
+				A94BB8B39A62DFCAB9CEE139 /* Fragment.png in Resources */,
+				E9A52660877F34C6D84C8F83 /* Smoke.png in Resources */,
+				B239FD362324D53015895207 /* Sparkle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD130256C90815246A69FBBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1727E9E896AFD5FCC2D9DB75 /* LTCharacterLimbo.swift in Sources */,
+				9D3514FD622B34042C5518E8 /* LTEasing.swift in Sources */,
+				DB195D9965A63F3CD4538380 /* LTEmitterView.swift in Sources */,
+				8219A7BC992D0378B58F4447 /* LTMorphingEffect.swift in Sources */,
+				F4AA645839A00ABAAD3AE76E /* LTMorphingLabel+Anvil.swift in Sources */,
+				9DC281B97DDD376BCB72B716 /* LTMorphingLabel+Burn.swift in Sources */,
+				B80FC48DF72C5A4042A88DD9 /* LTMorphingLabel+Evaporate.swift in Sources */,
+				2FC91AE18F8A14286B74FDB8 /* LTMorphingLabel+Fall.swift in Sources */,
+				E3CCF0520D95316FDE3725B8 /* LTMorphingLabel+Pixelate.swift in Sources */,
+				392598C4893CAC1FB5DA7DEA /* LTMorphingLabel+Sparkle.swift in Sources */,
+				631E476425D430B13F92AB98 /* LTMorphingLabel.swift in Sources */,
+				3D54C5F54D91B0079422C88A /* NSString+LTMorphingLabel.swift in Sources */,
+				0EC777CBD22F83E6830793FE /* Pods-Web Service Example-LTMorphingLabel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D722C30AEA1BB448B7EF3E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510D98EACADF2F1F98809E5A /* Pods-Web Service Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDC5B6F83D5FF7C063B7F71B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Web Service Example-LTMorphingLabel";
+			target = C50E76255984B52D8D6083F6 /* Pods-Web Service Example-LTMorphingLabel */;
+			targetProxy = 26A0FCC9FA59B0191C3CA736 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3500E9AF66E0DFF6BBDBAD2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5C6854F6FFF3DC620D197D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F28334032B45B238BF9AED6 /* Pods-Web Service Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Web Service Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Web Service Example/Pods-Web Service Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Web_Service_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6ED83A5BDE5B9818231E88A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B19CE81A96F2B1CBAFE97CC3 /* Pods-Web Service Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Web Service Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Web Service Example/Pods-Web Service Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Web_Service_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E85E42AE26DFA8FC74FBC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 365DB2AB9A7AB4D7B2D77C4F /* Pods-Web Service Example-LTMorphingLabel-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Web Service Example-LTMorphingLabel/Pods-Web Service Example-LTMorphingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Web Service Example-LTMorphingLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Web Service Example-LTMorphingLabel/Pods-Web Service Example-LTMorphingLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LTMorphingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		99325EAEE16AE691FC4BBC81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D4C50A1C58C5E3D30B27750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 365DB2AB9A7AB4D7B2D77C4F /* Pods-Web Service Example-LTMorphingLabel-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Web Service Example-LTMorphingLabel/Pods-Web Service Example-LTMorphingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Web Service Example-LTMorphingLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Web Service Example-LTMorphingLabel/Pods-Web Service Example-LTMorphingLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LTMorphingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		278C597127D35A93B410C319 /* Build configuration list for PBXNativeTarget "Pods-Web Service Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ED83A5BDE5B9818231E88A0 /* Debug */,
+				5C6854F6FFF3DC620D197D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D6CCCA3D69279E8552C06D4 /* Build configuration list for PBXNativeTarget "Pods-Web Service Example-LTMorphingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E85E42AE26DFA8FC74FBC63 /* Debug */,
+				9D4C50A1C58C5E3D30B27750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BCFECBB61FD9875FAD6B427 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3500E9AF66E0DFF6BBDBAD2B /* Debug */,
+				99325EAEE16AE691FC4BBC81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1CEAF570858F076B64EB905 /* Project object */;
+}
